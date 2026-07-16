@@ -1,0 +1,17 @@
+{
+  "name": "cajueiro-plugins",
+  "description": "Claude Code plugins by Marcelo Cajueiro (cajueiro.tech).",
+  "owner": { "name": "Marcelo Cajueiro" },
+  "plugins": [
+    {
+      "name": "narrate",
+      "source": { "source": "github", "repo": "MarceloCajueiro/narrate" },
+      "description": "Turn a document (PDF, Markdown, HTML, text) into a narrated audio file with Gemini TTS. Ships a skill that extracts the text, chunks it, synthesizes each chunk with retry/resume, and loudness-normalizes the result to MP3."
+    },
+    {
+      "name": "agentic-cr",
+      "source": { "source": "github", "repo": "MarceloCajueiro/agentic-cr" },
+      "description": "Agentic code review pipeline for GitHub PRs. Ships /cr — two independent review passes in parallel (baseline /code-review + specialized pr-review-toolkit), consolidated into one deduplicated PR comment, followed by a finding-by-finding fix pass."
+    }
+  ]
+}
