@@ -13,6 +13,7 @@
 |---|---|---|
 | [narrate](https://github.com/MarceloCajueiro/narrate) | `/plugin install narrate@cajueiro-plugins` | Turn a document (PDF, Markdown, HTML, text) into a narrated MP3 with Gemini TTS — chunking, retry, resume, loudness normalization. |
 | [agentic-cr](https://github.com/MarceloCajueiro/agentic-cr) | `/plugin install agentic-cr@cajueiro-plugins` | Agentic code review pipeline for GitHub PRs — two independent review passes in parallel, one deduplicated PR comment, then a finding-by-finding fix pass. |
+| [html-password-gate](https://github.com/MarceloCajueiro/html-password-gate) | `/plugin install html-password-gate@cajueiro-plugins` | Password-protect a static HTML page with no backend — AES-256-GCM encryption before upload, in-browser decryption; deploys to Cloudflare Pages or GitHub Pages. |
 
 Each plugin lives in its own repository; this repo only hosts the marketplace manifest that
 points to them. New plugins show up here without you having to add another marketplace.
