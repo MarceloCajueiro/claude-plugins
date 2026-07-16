@@ -1,10 +1,10 @@
-# cajueiro-claude-plugins
+# claude-plugins
 
 [Claude Code](https://docs.claude.com/en/docs/claude-code) plugin marketplace by
 [Marcelo Cajueiro](https://cajueiro.tech). Add it once, install any plugin:
 
 ```
-/plugin marketplace add MarceloCajueiro/cajueiro-claude-plugins
+/plugin marketplace add MarceloCajueiro/claude-plugins
 ```
 
 ## Plugins
