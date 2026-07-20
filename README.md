@@ -12,6 +12,7 @@
 | Plugin | Install | What it does |
 |---|---|---|
 | [narrate](https://github.com/MarceloCajueiro/narrate) | `/plugin install narrate@cajueiro-plugins` | Turn a document (PDF, Markdown, HTML, text) into a narrated MP3 with Gemini TTS — chunking, retry, resume, loudness normalization. |
+| [transcribe](https://github.com/MarceloCajueiro/transcribe) | `/plugin install transcribe@cajueiro-plugins` | Turn an audio or video recording into a Markdown transcript with Gemini STT — chunking, retry, resume, optional timestamps and speaker labels. |
 | [agentic-cr](https://github.com/MarceloCajueiro/agentic-cr) | `/plugin install agentic-cr@cajueiro-plugins` | Agentic code review pipeline for GitHub PRs — two independent review passes in parallel, one deduplicated PR comment, then a finding-by-finding fix pass. |
 | [html-password-gate](https://github.com/MarceloCajueiro/html-password-gate) | `/plugin install html-password-gate@cajueiro-plugins` | Password-protect a static HTML page with no backend — AES-256-GCM encryption before upload, in-browser decryption; deploys to Cloudflare Pages or GitHub Pages. |
 

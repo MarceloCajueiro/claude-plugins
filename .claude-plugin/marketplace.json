@@ -9,6 +9,11 @@
       "description": "Turn a document (PDF, Markdown, HTML, text) into a narrated audio file with Gemini TTS. Ships a skill that extracts the text, chunks it, synthesizes each chunk with retry/resume, and loudness-normalizes the result to MP3."
     },
     {
+      "name": "transcribe",
+      "source": { "source": "github", "repo": "MarceloCajueiro/transcribe" },
+      "description": "Turn an audio or video file (mp3, m4a, wav, mp4, …) into a text transcript with Gemini STT. Ships a skill that splits the recording into chunks, transcribes each with retry/resume, and joins them into one Markdown transcript with optional timestamps and speaker labels."
+    },
+    {
       "name": "agentic-cr",
       "source": { "source": "github", "repo": "MarceloCajueiro/agentic-cr" },
       "description": "Agentic code review pipeline for GitHub PRs. Ships /cr — two independent review passes in parallel (baseline /code-review + specialized pr-review-toolkit), consolidated into one deduplicated PR comment, followed by a finding-by-finding fix pass."
