@@ -16,7 +16,7 @@
     {
       "name": "agentic-cr",
       "source": { "source": "github", "repo": "MarceloCajueiro/agentic-cr" },
-      "description": "Agentic code review pipeline for GitHub PRs. Ships /cr — two independent review passes in parallel (baseline /code-review + specialized pr-review-toolkit), consolidated into one deduplicated PR comment, followed by a finding-by-finding fix pass."
+      "description": "Agentic code review for GitHub PRs. Ships /cr — triages the diff to pick which review lenses run, fans them out as read-only finder agents, refutes their candidates with an adversarial verifier, and posts one consolidated comment; --fix then applies the findings one by one. Language- and project-agnostic."
     },
     {
       "name": "html-password-gate",
