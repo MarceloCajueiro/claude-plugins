@@ -13,7 +13,7 @@
 |---|---|---|
 | [narrate](https://github.com/MarceloCajueiro/narrate) | `/plugin install narrate@cajueiro-plugins` | Turn a document (PDF, Markdown, HTML, text) into a narrated MP3 with Gemini TTS — chunking, retry, resume, loudness normalization. |
 | [transcribe](https://github.com/MarceloCajueiro/transcribe) | `/plugin install transcribe@cajueiro-plugins` | Turn an audio or video recording into a Markdown transcript with Gemini STT — chunking, retry, resume, optional timestamps and speaker labels. |
-| [agentic-cr](https://github.com/MarceloCajueiro/agentic-cr) | `/plugin install agentic-cr@cajueiro-plugins` | Agentic code review for GitHub PRs — the diff picks which review lenses run, an adversarial verifier refutes their findings, and one consolidated comment lands on the PR; `--fix` applies them one by one. |
+| [agentic-cr](https://github.com/MarceloCajueiro/agentic-cr) | `/plugin install agentic-cr@cajueiro-plugins` | Agentic code review for GitHub PRs — the diff picks which review lenses run, an adversarial verifier refutes their findings, and one consolidated comment lands on the PR; `--fix` applies them one by one. Ships `/cr` (lenses in parallel) and `/cr-single` (the same lenses in one sequential agent). |
 | [html-password-gate](https://github.com/MarceloCajueiro/html-password-gate) | `/plugin install html-password-gate@cajueiro-plugins` | Password-protect a static HTML page with no backend — AES-256-GCM encryption before upload, in-browser decryption; deploys to Cloudflare Pages or GitHub Pages. |
 
 Each plugin lives in its own repository; this repo only hosts the marketplace manifest that
