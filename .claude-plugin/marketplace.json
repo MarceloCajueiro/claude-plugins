@@ -16,7 +16,7 @@
     {
       "name": "agentic-cr",
       "source": { "source": "github", "repo": "MarceloCajueiro/agentic-cr" },
-      "description": "Agentic code review for GitHub PRs. Ships /cr — triages the diff to pick which review lenses run, fans them out as read-only finder agents, refutes their candidates with an adversarial verifier, and posts one consolidated comment; --fix then applies the findings one by one. Language- and project-agnostic."
+      "description": "Agentic code review for GitHub PRs. Triages the diff to pick which review lenses run, refutes their candidates with an adversarial verifier, and posts one consolidated comment; --fix then applies the findings one by one. Two architectures: /cr fans the lenses out as read-only finder agents, /cr-single runs the same lenses sequentially in one agent. Language- and project-agnostic."
     },
     {
       "name": "html-password-gate",
