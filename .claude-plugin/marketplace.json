@@ -22,6 +22,11 @@
       "name": "html-password-gate",
       "source": { "source": "github", "repo": "MarceloCajueiro/html-password-gate" },
       "description": "Password-protect a static HTML page with no backend: encrypt it with AES-256-GCM before upload, decrypt it in the browser. Ships an encrypt/deploy skill for Cloudflare Pages and GitHub Pages."
+    },
+    {
+      "name": "screen-record",
+      "source": { "source": "github", "repo": "MarceloCajueiro/screen-record" },
+      "description": "Record your screen and the audio your computer is playing into a single video file, unattended. Ships a skill that sets up the loopback audio device no OS provides by default, measures a test capture to prove it is not silent before it matters, and runs for hours without the display sleeping. macOS, Linux (X11) and Windows."
     }
   ]
 }
